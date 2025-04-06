@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RareFind Hub</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="side_nav">
+            <ul class="side_nav_ul">
+                <li id="home" onclick="loadXMLDoc(this)" class="li_btn" style="box-shadow: 0px 0px 5px black inset; background-color: #4e4e4e;">Home</li>
+                <li id="information" onclick="loadXMLDoc(this)" class="li_btn">Information</li>
+                <li id="gallery" onclick="loadXMLDoc(this)" class="li_btn">Gallery</li>
+                <li id="about" onclick="loadXMLDoc(this)" class="li_btn">About us</li>
+            </ul>
+        </div>
+        <div class="main_div" id="asd">
+            <div class="mdm">
+                <div id="home_div">
+                    <div class="home_container">
+                        <div class="cover">
+                            <div class="darkbg">
+                                <div class="motto">
+                                    <p class="motto_txt">Exclusive Elegance: Rare Finds, Unmatched Style!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="intro">
+                            <div class="intro_holder">
+                            <h1>Introduction</h1>
+                            <p class="intro_txt">RareFind Hub showcases cool, limited edition stuff from big brands. It's all about learning and getting excited about their unique designs and the stories they tell. We've got tech, fashion, and more! Check out fun facts, awesome pics, and the history behind these rare items. RareFind Hub helps us appreciate the creativity and progress these products represent.</p>
+                            </div>
+                            <div class="prev_cont">
+                                <div class="preview">
+                                    <div class="pre_pic1">
+                                        <p class="prev_cont_txt"><b>Fast retrieval</b> <br/>data to ensure that the website is always updated</p>
+                                    </div>
+                                </div>
+                                <div class="preview">
+                                    <div class="pre_pic2">
+                                        <p class="prev_cont_txt"><b>Free to use</b> <br/>This is accessible for any user</p></div>
+                                </div>
+                                <div class="preview">
+                                    <div class="pre_pic3">
+                                        <p class="prev_cont_txt"><b>Various of Items</b> <br/>This website contains various of items that you might didn't know existed</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stores">
+                            <div class="store_container">
+                                These are the best three store that previously selling this products
+                            <div class="store_cont">
+                                <a class="store_pic" id="sp1" href="https://shoemgk.com/"></a>
+                                <a class="store_pic" id="sp2" href="https://www.dickssportinggoods.com/c/adidas"></a>
+                                <a class="store_pic" id="sp3" href="https://sportscentral.ph/collections/adidas"></a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="information_div"></div>
+                <div id="gallery_div"></div>
+                <div id="about_div">
+                    <div class="about_div_cont">
+                        <div id="location"></div>
+                        <div id="about_info" class="about_info">
+                            <p class="p_name" id="p_name"></p>
+                            <p class="p_gacc" id="p_gacc"></p>
+                            <p class="p_dbirth" id="p_dbirth"></p>
+                            <p class="p_loc" id="p_loc"></p>
+                            <p class="p_status" id="p_status"></p>
+                            <p class="p_num" id="p_num"></p>
+                        </div>
+                    </div>
+                    <div class="pichead_cont">
+                        <div onclick="click_pichead(this)" id="leander" class="pichead"></div>
+                        <div onclick="click_pichead(this)" id="jusmin" class="pichead"></div>
+                        <div onclick="click_pichead(this)" id="armabel" class="pichead"></div>
+                        <div onclick="click_pichead(this)" id="jasmine" class="pichead"></div>
+                    </div>
+                </div>
+                
+                <div id="sn" class="small_nav">
+                    <div class="nav_head_cont" id="nhc">
+                        <div onclick="animation_navhead()" class="nav_head" id="nh"></div>
+                        <div class="txt">
+                            <div onclick="filter(this)"  class="nav_btn" id="shoes"></div>
+                            <div onclick="filter(this)"  class="nav_btn" id="shorts"></div>
+                            <div onclick="filter(this)"  class="nav_btn" id="shirt"></div>
+                            <div onclick="filter(this)"  class="nav_btn" id="accessory"></div>
+                            <!--this id is same as information above the code because their function is the same-->
+                            <div onclick="loadXMLDoc(this)"  class="nav_btn" id="information">All</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
